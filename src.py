@@ -120,7 +120,7 @@ def conv(img, filter):
     return a[n:x+n, n:y+n] # return result image ,except the padding part
 
 
-imageFile = '/home/lks9909/image_project1/lena.bmp'
+imageFile = '/home/youraddress/image_project1/lena.bmp'
 img1 = cv2.imread(imageFile, 0)
 
 noise = G_noise(img1, 5)
